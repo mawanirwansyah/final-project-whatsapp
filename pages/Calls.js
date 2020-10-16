@@ -22,7 +22,7 @@ const Calls = () => {
           
         }
         right={props => <List.Icon {...props} icon="phone" />}
-        onPress={()=>{ToastAndroid.show("Hello World", ToastAndroid.SHORT)}} 
+        onPress={()=>{ToastAndroid.show("Panggilan Masuk Pak Edwin", ToastAndroid.SHORT)}} 
       />
 
     <List.Item
@@ -33,8 +33,8 @@ const Calls = () => {
           <Avatar.Image size={60} source={User} />
           
         }
-        right={props => <List.Icon {...props} icon="phone" />}
-        onPress={()=>{ToastAndroid.show("Hello World", ToastAndroid.SHORT)}} 
+        right={props => <List.Icon {...props} icon="video" />}
+        onPress={()=>{ToastAndroid.show("Panggialn Video Bang Ringgas", ToastAndroid.SHORT)}} 
       />
     </View>
   );

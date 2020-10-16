@@ -6,6 +6,7 @@ import axios from 'axios';
 import Wes from '../asset/wes.jpg';
 import Cat from '../asset/cat.jpg';
 import Kucing from '../asset/kucing.jpg';
+import User from '../asset/user.jpg';
 
 // type Props = {};
 
@@ -24,7 +25,7 @@ const Chats = () => {
         right={props => 
           <Text>10.00 AM</Text> 
         }
-        onPress={()=>{ToastAndroid.show("Hello World", ToastAndroid.SHORT)}} 
+        onPress={()=>{ToastAndroid.show("Mawan Tolong Pisahkan Pdf Ini yaa.", ToastAndroid.SHORT)}} 
       />
 
       <List.Item
@@ -51,7 +52,7 @@ const Chats = () => {
             >2</Badge>
           </View>
         }
-        onPress={()=>{ToastAndroid.show("Hello World", ToastAndroid.SHORT)}}
+        onPress={()=>{ToastAndroid.show("Mana Jek, Gk belik makan kita", ToastAndroid.SHORT)}}
       />
 
     <List.Item
@@ -78,7 +79,21 @@ const Chats = () => {
             >1</Badge>
           </View>
         }
-        onPress={()=>{ToastAndroid.show("Hello World", ToastAndroid.SHORT)}}
+        onPress={()=>{ToastAndroid.show("Hai Mawan,Saya Lapar..", ToastAndroid.SHORT)}}
+      />
+
+    <List.Item
+        title="Bang Ringgas"
+        description="Wan, Uda siap tugas mu?"
+        left={props => 
+          
+          <Avatar.Image size={60} source={User} />
+          
+        }
+        right={props => 
+          <Text>Kemarin</Text> 
+        }
+        onPress={()=>{ToastAndroid.show("Wan, Uda Siap tugas mu?", ToastAndroid.SHORT)}} 
       />
 
     </View>

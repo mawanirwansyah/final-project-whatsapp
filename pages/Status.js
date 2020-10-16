@@ -18,7 +18,7 @@ const Status = () => {
         left={props => 
           <Avatar.Image size={60} source={Cat} />
         }
-        onPress={()=>{ToastAndroid.show("Hello World", ToastAndroid.SHORT)}}
+        onPress={()=>{ToastAndroid.show("Hai Nama Saya Agung", ToastAndroid.SHORT)}}
       />
 
     <List.Item
